@@ -1,11 +1,9 @@
 @include('ukladStrony.header')
 <div class="container">
-    <div class="row">
+    <div class="row" align="center">
         <div class="col-lg-3">
             @include('ukladStrony.zaloguj')
-            @if (!(Request::path() == 'checkout'))
                 @include('ukladStrony.shoppingCart')
-            @endif
             <h1 class="my-4">Kategorie</h1>
             {{ menu('categories', 'main.kategorie') }}
             <br>

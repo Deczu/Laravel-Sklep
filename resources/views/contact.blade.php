@@ -23,6 +23,6 @@
             <textarea type="text" name="message" class="form-control" id="message" placeholder="Twoja wiadomość" required>
             </textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
+        <button type="submit" class="btn btn-dark">Wyślij wiadomość</button>
     </form>
 @endsection

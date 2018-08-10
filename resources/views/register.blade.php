@@ -31,7 +31,7 @@
             <label for="exampleInputPassword1">Telefon</label>
             <input type="text" name="phone" class="form-control" id="phone" placeholder="Nr Telefonu" required>
         </div>
-        <button type="submit" class="btn btn-primary">Rejestruj</button>
+        <button type="submit" class="btn btn-dark">Rejestruj</button>
     </form>
 @endsection
 
